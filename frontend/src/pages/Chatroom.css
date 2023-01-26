@@ -1,0 +1,7 @@
+.chatroom{
+    display: grid;
+    grid-template-rows: 1fr 83% 1fr;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}

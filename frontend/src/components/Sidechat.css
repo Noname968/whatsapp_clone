@@ -1,0 +1,34 @@
+.sidechat {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+  cursor: pointer;
+}
+.sidechat:hover {
+  background-color: #f5f6f6;
+}
+.cimg {
+  margin-right: 10px;
+}
+.tll {
+  margin: 0 6px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #e9edef;
+  flex-direction: column;
+  justify-content: center;
+}
+.cpl {
+  font-size: 17px;
+  color: #3b4a54;
+  line-height: 21px;
+  margin: 0;
+}
+.cpil {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  color: #667781;
+}

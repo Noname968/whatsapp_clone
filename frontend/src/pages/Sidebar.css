@@ -1,0 +1,7 @@
+.sidebar{
+    min-width: 30%;
+}
+.channels{
+    height: 90%;
+    overflow: scroll !important;
+}

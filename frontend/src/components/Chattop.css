@@ -1,0 +1,30 @@
+.chattop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: #f0f2f5;
+    height: 59px;
+}
+.topl{
+    display: flex;
+    align-items: center;
+}
+.tl{
+    margin: 0 6px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cp{
+    font-size: 16px;
+    color: #111b21;
+    line-height: 21px;
+    margin: 0;
+}
+.cpi{
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0;
+    color: #667781;
+}

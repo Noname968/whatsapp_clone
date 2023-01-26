@@ -1,0 +1,29 @@
+.app{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    overflow: hidden;
+    background-color: #eae6df;
+    background-image: linear-gradient(#eae6df,#d1d7db);
+    display: flex;
+    align-items: center;
+}
+.app::after{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 127px;
+    content: "";
+    background-color: #00a884;
+}
+.appcon{
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 38px);
+    height: calc(100% - 38px);
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
