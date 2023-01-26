@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 
 app.use(cors({
-    origin: ['http://localhost:3000','https://whatsapp-mern-rw7o.onrender.com'],
+    origin: ['http://localhost:3000','https://whatsapp-clone-84359.web.app'],
 }));
 
 const pusher = new Pusher({
