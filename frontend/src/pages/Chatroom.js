@@ -9,7 +9,8 @@ import axios from 'axios'
 
 function Chatroom({signout}) {
   const [messages, setmessages] = useState([])
-  const url = "http://localhost:5000"
+  // const url = "http://localhost:5000"
+  const url="https://whatsapp-mern-rw7o.onrender.com"
   
   useEffect(() => {
     axios.get(`${url}/getmessages`)

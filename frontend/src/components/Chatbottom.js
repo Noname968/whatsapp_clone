@@ -12,7 +12,9 @@ function Chatbottom() {
   const [input, setinput] = useState("")
   const [{ user }, dispatch] = useStateValue();
   const [emojiopen, setemojiopen] = useState(false)
-  const url = "http://localhost:5000"
+  // const url = "http://localhost:5000"
+  const url="https://whatsapp-mern-rw7o.onrender.com"
+
 
   const clickfun = async (e) => {
     e.preventDefault()
